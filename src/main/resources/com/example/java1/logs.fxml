@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="com.example.java1.ui.LogsController">
+    <children>
+        <ImageView fitHeight="471.0" fitWidth="721.0" opacity="0.6">
+            <image>
+                <Image url="@../../Downloads/background.jpg" />
+            </image>
+        </ImageView>
+        <TableView fx:id="logsTable" layoutX="122.0" layoutY="86.0" prefHeight="300" prefWidth="500" />
+        <Button layoutX="36.0" layoutY="38.0" onAction="#goToMainMenu" mnemonicParsing="false" style="-fx-background-color: f0881a;" textFill="WHITE" text="Geri" />
+    </children>
+</AnchorPane>

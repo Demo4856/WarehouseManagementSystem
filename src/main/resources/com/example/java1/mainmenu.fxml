@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java1.ui.MainMenuController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.6">
+         <image>
+            <Image url="@../../Downloads/background.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="205.0" layoutY="138.0" mnemonicParsing="false" onAction="#goToWarehousesMenu" prefHeight="38.0" prefWidth="171.0" style="-fx-background-color: f0881a;" text="Depo Yönetimi " textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+
+
+      <Button fx:id="warehouseMenuButton" layoutX="205.0" layoutY="200.0" mnemonicParsing="false" onAction="#goToLogs" prefHeight="38.0" prefWidth="171.0" style="-fx-background-color: f0881a;" text="Depo Olay Kaydı " textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="260.0" layoutY="294.0" mnemonicParsing="false" onAction="#goToAdminScene" prefHeight="22.0" prefWidth="67.0" style="-fx-background-color: f0881a;" text="Çıkış Yap" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

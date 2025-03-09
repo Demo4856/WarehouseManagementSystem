@@ -1,0 +1,80 @@
+[ {
+  "name" : "Merkez Depo",
+  "parts" : [ {
+    "partName" : "Vida",
+    "quantity" : 10
+  }, {
+    "partName" : "Somun",
+    "quantity" : 30
+  }, {
+    "quantity" : 20,
+    "partName" : "Vida"
+  } ]
+}, {
+  "name" : "Yan Depo",
+  "parts" : [ {
+    "quantity" : 10,
+    "partName" : "Pul"
+  }, {
+    "partName" : "Vida",
+    "quantity" : 40
+  }, {
+    "quantity" : 20,
+    "partName" : "Somun"
+  } ]
+}, {
+  "name" : "İstanbul Deposu",
+  "parts" : [ {
+    "partName" : "Conta",
+    "quantity" : 60
+  }, {
+    "partName" : "Şaft ",
+    "quantity" : 10
+  }, {
+    "quantity" : 94,
+    "partName" : "Pamuklu Kumaş"
+  }, {
+    "quantity" : 140,
+    "partName" : "Fermuar"
+  }, {
+    "quantity" : 94,
+    "partName" : "Dikiş İpi"
+  }, {
+    "quantity" : 15,
+    "partName" : "Pamuk"
+  } ],
+  "products" : [ {
+    "stock" : 2,
+    "productName" : "Pantolon1"
+  } ]
+}, {
+  "name" : "Test Deposu",
+  "parts" : [ {
+    "partName" : "Pul",
+    "quantity" : 150
+  }, {
+    "partName" : "Tornavida",
+    "quantity" : 45
+  }, {
+    "partName" : "Conta",
+    "quantity" : 50
+  } ]
+}, {
+  "name" : "Ankara Deposu",
+  "parts" : [ {
+    "quantity" : 10,
+    "partName" : "Pul"
+  } ]
+}, {
+  "name" : "Kadıköy Depo",
+  "parts" : [ {
+    "quantity" : 90,
+    "partName" : "Fermuar"
+  } ]
+}, {
+  "name" : "Maltepe Depo",
+  "parts" : [ ]
+}, {
+  "name" : "Kartal Deposu",
+  "parts" : [ ]
+} ]

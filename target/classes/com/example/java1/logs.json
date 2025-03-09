@@ -1,0 +1,37 @@
+[ {
+  "action" : "Depo Ekleme",
+  "description" : "Yeni depo eklendi: Merkez Depo",
+  "timestamp" : "2024-01-01T12:00:00"
+}, {
+  "action" : "Transfer",
+  "description" : "Merkez Depo'dan Yan Depo'ya 10 adet parça gönderildi.",
+  "timestamp" : "2024-01-01T12:30:00"
+}, {
+  "action" : "Depo Ekleme",
+  "description" : "Depo eklendi: Maltepe Depo",
+  "timestamp" : "2025-01-06T11:32:48.168000500"
+}, {
+  "action" : "Ürün Üretme",
+  "description" : "Ürün Üretildi: Pantolon, Miktar: 4",
+  "timestamp" : "2025-01-06T11:58:41.241021800"
+}, {
+  "action" : "Depo Ekleme",
+  "description" : "Depo eklendi: Kartal Deposu",
+  "timestamp" : "2025-01-06T12:28:19.551826100"
+}, {
+  "action" : "Ürün Üretme",
+  "description" : "Depo: İstanbul Deposu, Ürün Üretildi: Pantolon, Miktar: 1",
+  "timestamp" : "2025-01-06T12:28:36.183662200"
+}, {
+  "action" : "Parça Ekleme",
+  "description" : "Depo: İstanbul Deposu, Parça eklendi: Fermuar, Miktar: 50",
+  "timestamp" : "2025-01-06T12:30:03.040038800"
+}, {
+  "action" : "Ürün Ekleme",
+  "description" : "Depo: İstanbul Deposu, Ürün Eklendi: Pantolon, Miktar: 2",
+  "timestamp" : "2025-01-06T12:30:37.228660400"
+}, {
+  "action" : "Ürün Değiştirme",
+  "description" : "Depo: İstanbul Deposu, Ürün Değiştirildi: Eski -> Pantolon, Yeni -> Pantolon1, Miktar: Eski -> 11, Yeni -> 2",
+  "timestamp" : "2025-01-06T12:31:02.917627400"
+} ]

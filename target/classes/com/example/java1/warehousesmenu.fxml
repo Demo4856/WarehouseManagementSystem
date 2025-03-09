@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java1.ui.WarehousesMenuController">
+   <children>
+      <ImageView fitHeight="471.0" fitWidth="721.0" opacity="0.6">
+         <image>
+            <Image url="@../../Downloads/background.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="newWarehouseField" layoutX="88.0" layoutY="264.0" prefHeight="26.0" prefWidth="140.0" promptText="Depo İsmi" style="-fx-border-color: f0881a; -fx-border-width: 0px 0px 1px 0px;" />
+      <TextField fx:id="quantityField" layoutX="450.0" layoutY="301.0" prefHeight="26.0" prefWidth="160.0" promptText="Stok " style="-fx-border-color: f0881a; -fx-border-width: 0px 0px 1px 0px;" />
+      <TextField fx:id="partNameField" layoutX="450.0" layoutY="264.0" prefHeight="26.0" prefWidth="160.0" promptText="Parça/Ürün" style="-fx-border-color: f0881a; -fx-border-width: 0px 0px 1px 0px;" />
+      <Button layoutX="107.0" layoutY="347.0" mnemonicParsing="false" onAction="#addWarehouse" prefHeight="22.0" prefWidth="102.0" style="-fx-background-color: f0881a;" text="Depo Ekle " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goToMainMenu" prefHeight="22.0" prefWidth="50.0" style="-fx-background-color: f0881a;" text="Geri" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <TextField fx:id="partSearchField" layoutX="384.0" layoutY="10.0" prefWidth="142.0" promptText="Parça Ara..." />
+      <TableView fx:id="partTable" layoutX="384.0" layoutY="46.0" prefHeight="200.0" prefWidth="142.0">
+      </TableView>
+      <TextField fx:id="warehouseSearchField" layoutX="87.0" layoutY="10.0" prefWidth="140.0" promptText="Depo Ara..." />
+      <TableView fx:id="warehouseTable" layoutX="87.0" layoutY="46.0" prefHeight="200.0" prefWidth="140.0">
+      </TableView>
+      <TextField fx:id="productSearchField" layoutX="550.0" layoutY="10.0" prefWidth="142.0" promptText="Ürün Ara..." />
+      <TableView fx:id="productsTable" layoutX="550.0" layoutY="46.0" prefHeight="200.0" prefWidth="142.0">
+
+      </TableView>
+
+      <Button layoutX="479.0" layoutY="347.0" mnemonicParsing="false" onAction="#addPartToWarehouse" prefHeight="22.0" prefWidth="102.0" style="-fx-background-color: f0881a;" text="Parça Ekle " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="479.0" layoutY="380.0" mnemonicParsing="false" onAction="#addProductToWarehouse" prefHeight="22.0" prefWidth="102.0" style="-fx-background-color: f0881a;" text="Ürün Ekle " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="479.0" layoutY="416.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="102.0" style="-fx-background-color: f0881a;" text="Parça Sipariş Et " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="fromWarehouseComboBox" layoutX="228.0" layoutY="46.0" prefWidth="150" promptText="Gönderen Depo" />
+      <ComboBox fx:id="toWarehouseComboBox" layoutX="228.0" layoutY="82.0" prefWidth="150" promptText="Alıcı Depo" />
+      <ComboBox fx:id="itemComboBox" layoutX="227.0" layoutY="120.0" prefWidth="150.0" promptText="Gönderilecek Ürün/Parça" />
+      <ComboBox fx:id="productComboBox" layoutX="228.0" layoutY="314.0" prefWidth="150.0" promptText="Ürün Seçiniz" />
+      <TextField fx:id="transferQuantityField" layoutX="253.0" layoutY="159.0" prefWidth="100" promptText="Miktar" />
+      <Button layoutX="374.0" layoutY="345.0" mnemonicParsing="false" onAction="#editPartInWarehouse" style="-fx-background-color: f0881a;" text="Parça Düzenle" textFill="BLACK" />
+      <Button layoutX="389.0" layoutY="378.0" mnemonicParsing="false" onAction="#deletePartFromWarehouse" style="-fx-background-color: f0881a;" text="Parça Sil" textFill="BLACK" />
+      <Button layoutX="610.0" layoutY="345.0" mnemonicParsing="false" onAction="#editProductInWarehouse" style="-fx-background-color: f0881a;" text="Ürün Düzenle" textFill="BLACK" />
+      <Button layoutX="625.0" layoutY="378.0" mnemonicParsing="false" onAction="#deleteProductFromWarehouse" style="-fx-background-color: f0881a;" text="Ürün Sil" textFill="BLACK" />
+      <TextField fx:id="productionQuantityField" layoutX="251.0" layoutY="345.0" prefWidth="100.0" promptText="Üretim Miktarı" />
+      <Button fx:id="transferButton" layoutX="267.0" layoutY="196.0" mnemonicParsing="false" onAction="#transferItem" style="-fx-background-color: f0881a;" text="Transfer Et" textFill="WHITE" />
+      <Button layoutX="251.0" layoutY="380.0" mnemonicParsing="false" onAction="#produceProduct" prefHeight="22.0" prefWidth="102.0" style="-fx-background-color: f0881a;" text="Ürün Üretme " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,85 @@
+[
+  {
+    "productName": "T-Shirt",
+    "recipe": [
+      { "partName": "Pamuklu Kumaş", "quantity": 2 },
+      { "partName": "Dikiş İpi", "quantity": 1 },
+      { "partName": "Etiket", "quantity": 1 }
+    ]
+  },
+  {
+    "productName": "Kot Pantolon",
+    "recipe": [
+      { "partName": "Denim Kumaş", "quantity": 3 },
+      { "partName": "Metal Fermuar", "quantity": 1 },
+      { "partName": "Düğme", "quantity": 1 },
+      { "partName": "Dikiş İpi", "quantity": 2 }
+    ]
+  },
+  {
+    "productName": "Etek",
+    "recipe": [
+      { "partName": "Keten Kumaş", "quantity": 2 },
+      { "partName": "Düğme", "quantity": 1 },
+      { "partName": "Dikiş İpi", "quantity": 1 }
+    ]
+  },
+  {
+    "productName": "Gömlek",
+    "recipe": [
+      { "partName": "Pamuklu Kumaş", "quantity": 3 },
+      { "partName": "Düğme", "quantity": 5 },
+      { "partName": "Dikiş İpi", "quantity": 2 }
+    ]
+  },
+  {
+    "productName": "Ceket",
+    "recipe": [
+      { "partName": "Yün Kumaş", "quantity": 4 },
+      { "partName": "Astar Kumaşı", "quantity": 2 },
+      { "partName": "Düğme", "quantity": 3 },
+      { "partName": "Dikiş İpi", "quantity": 2 }
+    ]
+  },
+  {
+    "productName": "Eşofman Takımı",
+    "recipe": [
+      { "partName": "Polar Kumaş", "quantity": 3 },
+      { "partName": "Lastik", "quantity": 2 },
+      { "partName": "Dikiş İpi", "quantity": 1 }
+    ]
+  },
+  {
+    "productName": "Şapka",
+    "recipe": [
+      { "partName": "Kot Kumaş", "quantity": 1 },
+      { "partName": "Dikiş İpi", "quantity": 1 },
+      { "partName": "Şerit", "quantity": 1 }
+    ]
+  },
+  {
+    "productName": "Kaban",
+    "recipe": [
+      { "partName": "Yünlü Kumaş", "quantity": 5 },
+      { "partName": "Astar Kumaşı", "quantity": 3 },
+      { "partName": "Düğme", "quantity": 4 },
+      { "partName": "Dikiş İpi", "quantity": 2 }
+    ]
+  },
+  {
+    "productName": "Pantolon",
+    "recipe": [
+      { "partName": "Pamuklu Kumaş", "quantity": 3 },
+      { "partName": "Fermuar", "quantity": 1 },
+      { "partName": "Dikiş İpi", "quantity": 1 }
+    ]
+  },
+  {
+    "productName": "Bluz",
+    "recipe": [
+      { "partName": "İpek Kumaş", "quantity": 2 },
+      { "partName": "Dikiş İpi", "quantity": 1 },
+      { "partName": "Düğme", "quantity": 3 }
+    ]
+  }
+]

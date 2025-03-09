@@ -1,0 +1,16 @@
+# Parts
+ID, Name, Stock Quantity, Price
+100001, Kumaş, 100, 50.00
+100002, Fermuar, 200, 12.50
+100003, Astar, 150, 25.00
+100004, Kolon, 50, 15.00
+100005, Ayar Tokası, 80, 8.00
+100006, Kürsör, 300, 3.00
+100007, Metal Diş, 120, 2.00
+100008, Plastik Diş, 250, 1.50
+100009, Yatak Süngeri, 70, 60.00
+100010, Ahşap Parça, 90, 18.00
+100011, Deri, 110, 35.00
+100012, Düğme, 500, 1.00
+100013, Zincir, 60, 10.00
+100014, Plastik Kapak, 130, 5.00

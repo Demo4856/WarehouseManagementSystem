@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml"  fx:controller="com.example.java1.ui.MainMenuController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.6">
+         <image>
+            <Image url="@../../Downloads/background.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="250.0" layoutY="323.0" mnemonicParsing="false" style="-fx-background-color: f0881a;" text="Edit Products" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="258.0" layoutY="273.0" mnemonicParsing="false" style="-fx-background-color: f0881a;" text="Edit Parts" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TableView layoutX="64.0" layoutY="55.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="199.20001220703125" text="Products" />
+        </columns>
+      </TableView>
+      <TableView layoutX="341.0" layoutY="55.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="199.20001220703125" text="Parts" />
+        </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="50.0" style="-fx-background-color: f0881a;" text="Back" textFill="WHITE" onAction="#goToMainMenu">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

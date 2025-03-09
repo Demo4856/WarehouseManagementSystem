@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.java1.ui.PartsProductsController">
+    <children>
+
+
+        <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.6">
+            <image>
+                <Image url="@../../Downloads/background.jpg" />
+            </image>
+        </ImageView>
+
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goToWarehousesMenu" prefHeight="22.0" prefWidth="50.0" style="-fx-background-color: f0881a;" text="Back" textFill="WHITE">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Button>
+        <Label layoutX="100" layoutY="20" text="Ürün Ekle" />
+        <TextField layoutX="100" fx:id="productNameField" layoutY="50" promptText="Ürün Adı" />
+        <TextField  layoutX="100" layoutY="90" fx:id="productPriceField" promptText="Ürün Fiyatı" />
+        <Button layoutX="100" layoutY="130" text="Ürün Ekle" onAction="#addProduct" />
+
+        <!-- Parça Ekleme Bölümü -->
+        <Label layoutX="380" layoutY="20" text="Parça Ekle" />
+        <TextField layoutX="380" layoutY="50" fx:id="partNameField" promptText="Parça Adı" />
+        <TextField layoutX="380" layoutY="90" fx:id="partPriceField" promptText="Parça Fiyatı" />
+        <TextField layoutX="380" layoutY="130" fx:id="partQuantityField" promptText="Parça Stok" />
+        <Button layoutX="380" layoutY="170" text="Parça Ekle" onAction="#addPart"/>
+    </children>
+</AnchorPane>

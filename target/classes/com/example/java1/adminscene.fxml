@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java1.ui.LoginController">
+
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="369.0" opacity="0.5">
+         <image>
+            <Image url="@../../Downloads/background.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="emailField" layoutX="418.0" layoutY="225.0" prefHeight="26.0" prefWidth="160.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: f0881a; -fx-border-width: 0px 0px 1px 0px;" />
+      <PasswordField fx:id="passwordField" layoutX="418.0" layoutY="264.0" prefHeight="26.0" prefWidth="160.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: f0881a; -fx-border-width: 0px 0px 1px 0px;" />
+      <ImageView fitHeight="20.0" fitWidth="18.0" layoutX="387.0" layoutY="267.0">
+         <image>
+            <Image url="@../../Downloads/passswordicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="377.0" layoutY="219.0">
+         <image>
+            <Image url="@../../Downloads/usericon.png" />
+         </image>
+      </ImageView>
+      <Text fontSmoothingType="LCD" layoutX="64.0" layoutY="87.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPO YÖNETİM SİSTEMİ " textAlignment="CENTER" wrappingWidth="241.1414794921875">
+         <font>
+            <Font name="Britannic Bold" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="49.0" fitWidth="66.0" layoutX="449.0" layoutY="29.0">
+         <image>
+            <Image url="@../../Downloads/7e4f3a1d1708bea2e6e3a791a8d850ec.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f08810" layoutX="427.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giriş Ekranı ">
+         <font>
+            <Font name="Sylfaen" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="456.0" layoutY="312.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="26.0" prefWidth="62.0" style="-fx-background-color: f08810;" text="Giriş Yap" textFill="WHITE" />
+      <Button layoutX="456.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleRegister" prefHeight="26.0" prefWidth="62.0" style="-fx-background-color: f08810;" text="Kayıt Ol" textFill="WHITE" />
+   </children>
+</AnchorPane>
